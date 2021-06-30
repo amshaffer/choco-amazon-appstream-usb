@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>amazon-appstream-usb</id>
+    <version>1.1.294</version>
+    <title>Amazon AppStream Client USB Drivers</title>
+    <authors>Amazon</authors>
+    <owners>Andrew Shaffer</owners>
+    <projectUrl>https://clients.amazonappstream.com</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/amshaffer/choco-amazon-appstream/master/icons/amazon-appstream.png</iconUrl>
+    <packageSourceUrl>https://github.com/amshaffer/choco-amazon-appstream</packageSourceUrl>
+    <tags>appstream</tags>
+    <summary>Install the Amazon AppStream 2.0 Client USB Drivers via the Enterprise Deployment Tool.</summary>
+    <description>
+# Amazon AppStream 2.0 Client USB DriversInstaller
+Installs the client USB drivers from here https://clients.amazonappstream.com under "Enterprise Deployment Tools"
+
+A reboot is required after installation for full USB redirection functionality.
+    </description>
+    <releaseNotes>https://docs.aws.amazon.com/appstream2/latest/developerguide/client-release-versions.html</releaseNotes>
+    <bugTrackerUrl>https://github.com/amshaffer/choco-amazon-appstream-usb/issues</bugTrackerUrl>
+    <licenseUrl>https://aws.amazon.com/asl/</licenseUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
